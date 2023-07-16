@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Class04</title>
+    <style>
+        h3{
+            color: blue;
+            background-color: burlywood;
+        }
+        th,tr,td{
+            text-align: center;
+            border: 2px solid blue;
+        }
+        tfoot{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2>Input Type</h2>
+    <form action="">
+        <input type="checkbox">
+        <label for="">HTML</label><br>
+        <input type="checkbox">
+        <label for="">CSS</label><br>
+        <label for="">Upload your CV</label>
+        <input type="file"><br><br>
+        <input type="range">
+        <input type="color">
+        <input type="date">
+        <input type="reset">
+    </form>
+    
+    <h2 style="color: red">Input Type</h2>
+    
+    <h3>Input Type</h3>
+    
+    <table align="center" border="2px solid" cellspacing="0" cellpadding="5px">
+        <caption>This is demo HTML Table</caption>
+        <thead>
+            <tr>
+            <th>Student Id</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1234</td>
+                <td>Bill</td>
+                <td rowspan="2">Male</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>5678</td>
+                <td>Jhon</td>
+                <td>28</td>
+            </tr>
+            <tr>
+                <td>9101</td>
+                <td>Olivia</td>
+                <td rowspan="2">Female</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>1121</td>
+                <td>Sufia</td>
+                <td>21</td>
+            </tr>
+        </tbody>
+        <tfoot align="center">
+            <tr>
+            <td colspan="2">Total number of student</td>
+            <td colspan="2">04</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
